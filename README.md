@@ -1,2 +1,1 @@
-# Tic-Tac-Toe
-ttt4 is the newest version
+# Tic-Tac-Toe implemented in Python with an AI player.
