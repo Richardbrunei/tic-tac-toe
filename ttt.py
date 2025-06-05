@@ -55,7 +55,7 @@ def init():
     a=[[" "," "," "] for i in range(3)]
 def game():
     init()
-    print("Welcome to tic tac toe\nCo ordinates are from the top right (so the top left would be (2,0))\n")
+    print("Welcome to tic tac toe\nCo ordinates are from the top left (so the top right would be (2,0))\n")
     show()
     cnt=0
     while(check()==0):
