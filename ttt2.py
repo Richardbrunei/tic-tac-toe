@@ -89,7 +89,7 @@ def game(t):
 
 def startgame():
     init()
-    print("Welcome to tic tac toe\nCo ordinates are from the top right (so the top left would be (2,0))\n")
+    print("Welcome to tic tac toe\nCo ordinates are from the top left (so the top right would be (2,0))\n")
     mode=int(input("Input 0 if you want the AI to go first, 1 if you want it to go second, 2 if you have enough friends to play together: ").strip())
     while not (mode in range(3)):
         mode=int(input("Not valid game mode. Try again: ").strip())
